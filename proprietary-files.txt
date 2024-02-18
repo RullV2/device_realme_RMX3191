@@ -1,0 +1,61 @@
+# All unpinned blobs are from RMX2020_11_C.05
+
+# APNs
+etc/apns-conf.xml:product/etc/apns-conf.xml
+
+# Bluetooth (AptX)
+lib64/libaptX_encoder.so
+lib64/libaptXHD_encoder.so
+
+# EngineerMode
+-priv-app/EngineerMode/EngineerMode.apk
+lib/libem_support_jni.so
+lib64/libem_support_jni.so
+
+# Kernel Power Off Charging (KPOC)
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib/libshowlogo.so
+
+# Kernel-Modules
+vendor/lib/modules/bt_drv.ko:product/vendor_overlay/30/lib/modules/bt_drv.ko
+vendor/lib/modules/fmradio_drv.ko:product/vendor_overlay/30/lib/modules/fmradio_drv.ko
+vendor/lib/modules/gps_drv.ko:product/vendor_overlay/30/lib/modules/gps_drv.ko
+vendor/lib/modules/wlan_drv_gen4m.ko:product/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko
+vendor/lib/modules/wmt_chrdev_wifi.ko:product/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko
+vendor/lib/modules/wmt_drv.ko:product/vendor_overlay/30/lib/modules/wmt_drv.ko
+
+# Mediatek IMS
+bin/vtservice
+etc/init/init.vtservice.rc
+lib/libcomutils.so
+lib/libimsma.so
+lib/libimsma_adapt.so
+lib/libimsma_rtp.so
+lib/libimsma_socketwrapper.so
+lib/libmtk_vt_service.so
+lib/libmtk_vt_wrapper.so
+lib/libmtkavenhancements.so
+lib/libmtkperf_client.so
+lib/libsignal.so
+lib/libsink.so
+lib/libsource.so
+lib/libvcodec_cap.so
+lib/libvcodec_capenc.so
+lib/vendor.mediatek.hardware.videotelephony@1.0.so:system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+lib/libvt_avsync.so
+lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+lib64/libmtk_vt_wrapper.so
+lib64/libmtkavenhancements.so
+lib64/libmtkperf_client.so
+lib64/libvcodec_cap.so
+lib64/libvcodec_capenc.so
+vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# Dirac libs
+lib64/libdpframework.so:product/vendor_overlay/29/lib64/libdpframework.so
+etc/audio_effects.xml:product/vendor_overlay/29/etc/audio_effects.xml
+etc/diracmobile.config:product/vendor_overlay/29/etc/diracmobile.configo
+lib/libDiracAPI_SHARED.so:product/vendor_overlay/29/lib/libDiracAPI_SHARED.so
+lib/soundfx/libdirac.so:product/vendor_overlay/29/lib/soundfx/libdirac.so
