@@ -14,10 +14,9 @@
 # limitations under the License.
 #
 
-# Inherit some common Derp stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-# Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
@@ -30,14 +29,9 @@ PRODUCT_DEVICE := RMX3191
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3191
 PRODUCT_MANUFACTURER := realme
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-
-TARGET_BOOT_ANIMATION_RES := 720
 
 # Build info
-BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
+BUILD_FINGERPRINT := "alps/sys_oplus_mssi_64_cn/oplus_mssi_64_cn:11/RP1A.200720.011/1614161234317:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=RMX3191 \
     PRODUCT_NAME=RMX3191 \
