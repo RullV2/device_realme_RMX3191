@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/derp_RMX3191.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_RMX3191-user \
+    derp_RMX3191-userdebug \
+    derp_RMX3191-eng
