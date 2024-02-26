@@ -147,3 +147,6 @@ TARGET_SCREEN_DENSITY := 440
 
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
+
+# Inherit from the proprietary version
+include vendor/realme/RMX3191/BoardConfigVendor.mk
